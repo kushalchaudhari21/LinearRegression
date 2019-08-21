@@ -16,10 +16,7 @@ ex1
 ## General Procedure
 
 **1.**  It is better to visualise the data first before execution so a plotting function is used. 
-<p align="center">
-  <img src=“https://github.com/kushalchaudhari21/LinearRegression/blob/master/output%20screenshots/visualising%20the%20data.png">
-</p>
-                                                                                                                                
+![Visualising data](https://github.com/kushalchaudhari21/LinearRegression/blob/master/output%20screenshots/visualising%20the%20data.png)                                                                                                                                
 **2.** Formulation for computing cost(J) is as follows:
 ```
 h = X * theta                           
@@ -27,29 +24,15 @@ MeanSquaredError = sum((h - y).^2)
 J = MeanSquaredError/(2 * m)
 ```
 Cost function computed using vector theta = [0 ; 0] is:
-<p align="center">
-  <img src=“https://github.com/kushalchaudhari21/LinearRegression/blob/master/output%20screenshots/computing%20cost%20with%20sample%20theta.png" title=“Cost function output”>
-</p>
-                                                                                                                                                
-**3.** Next, a gradient descent algorithm is used to minimise cost function(J) using an update to vector theta on each iteration.
+![Cost Function Evaluation](https://github.com/kushalchaudhari21/LinearRegression/blob/master/output%20screenshots/computing%20cost%20with%20sample%20theta.png)                                                                                                                                      **3.** Next, a gradient descent algorithm is used to minimise cost function(J) using an update to vector theta on each iteration.
 ```
 error = (X * theta) - y;
 theta = theta - ((alpha/m) * (X’)*error)
 ```
 Gradient descent gives the values of theta that minimise the cost function(J) as follows:
-<p align="center">
-  <img src=“https://github.com/kushalchaudhari21/LinearRegression/blob/master/output%20screenshots/minimised%20theta%20using%20gradient%20descent.png" title=“Gradient descent Theta update”>
-</p>
+![Gradient descent Theta update](https://github.com/kushalchaudhari21/LinearRegression/blob/master/output%20screenshots/minimised%20theta%20using%20gradient%20descent.png) 
 Visualising the regression line:
-<p align="center">
-  <img src=“https://github.com/kushalchaudhari21/LinearRegression/blob/master/output%20screenshots/visualising%20final%20regression%20line.png" title=“Regression line”>
-</p>
-
-
-
-
-
-
+![Regression line](https://github.com/kushalchaudhari21/LinearRegression/blob/master/output%20screenshots/visualising%20final%20regression%20line.png)
 
 
 
