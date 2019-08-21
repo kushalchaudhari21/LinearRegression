@@ -17,7 +17,7 @@ ex1
 
 **1.**  It is better to visualise the data first before execution so a plotting function is used. 
 <p align="center">
-  <img src=“https://github.com/kushalchaudhari21/LinearRegression/blob/master/output%20screenshots/visualising%20the%20data.png" title=“Visualising the data”>
+  <img src=“https://github.com/kushalchaudhari21/LinearRegression/blob/master/output%20screenshots/visualising%20the%20data.png">
 </p>
                                                                                                                                 
 **2.** Formulation for computing cost(J) is as follows:
