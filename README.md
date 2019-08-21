@@ -56,7 +56,7 @@ Contour plot for the same gives an idea of the local minima as follows:
 
 ## Important Insights
 
-* Always go for vectorised implementation if possible. 
+* Always go for vectorised implementation if possible(which is why we add a column of ones to X for θ(subscript0)). 
 * To debug vectorised implementation it is insightful to print out sizes of matrices using octave function *whos*.
 * Gradient descent as a method to minimize cost function scales better to a larger dataset than normal equations method. Normal equations method becomes computationally expensive for the large dataset(say 10000+ examples).
 * Feature scaling(getting all features in similiar ranges to avoid skewed functions) along with mean normalisation should be used for faster gradient descent. 
